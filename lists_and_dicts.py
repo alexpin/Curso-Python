@@ -25,7 +25,9 @@ def run():
     for i in super_list:
         print(i["fristname"], i["lastname"])
 
-    
+    for values in super_list:
+        for key, value in values.items():
+            print(key, "_", value)
 
 
 if __name__ == '__main__':
