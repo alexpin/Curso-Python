@@ -1,4 +1,4 @@
-from array import array
+#from array import array
 import numpy as np
 
 scalar = np.array(42)
