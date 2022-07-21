@@ -16,5 +16,5 @@ print(np.reshape(arr,(2,3),'A')) # Como mejor esta optimi.do en mi sistema
 desafio = np.random.randint(1,100,(10,10))
 print(desafio)
 print(desafio.shape)
-print(desafio.reshape(5,20))
+print(desafio.reshape(5,20)) 
 
