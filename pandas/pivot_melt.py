@@ -1,4 +1,3 @@
-from re import I
 import pandas as pd
 
 df_books = pd.read_csv('/home/alexpino70/curso_python/archivos/bestsellers with categories.csv', sep=',',
