@@ -1,2 +1,0 @@
-/home/alexpino70/anaconda3
-/home/alexpino70/anaconda3/envs/FundamentosAL
