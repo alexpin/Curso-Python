@@ -1,0 +1,5 @@
+source entorno_virtual/bin/activate
+
+deactivate
+
+Crear entorno: python3 -m venv entorno_virtual
