@@ -1,12 +1,13 @@
 import pandas as pd
 
-# Ruta del archivo Excel
-ruta_archivo_excel = "C:\Users\alexa\OneDrive\Escritorio\Bases_Data\Super_Compañias.xlsx"
+# Ruta del archivo csv
+ruta_archivo_csv = "/mnt/c/Users/alexa/OneDrive/Escritorio/Bases_Data/Super_Compañias/bi_ranking.csv"
 
-# Leer el archivo Excel en un DataFrame de pandas
+
+# Leer el archivo csv en un DataFrame de pandas
 try:
-    df = pd.read_excel(ruta_archivo_excel)
-    print("Contenido del archivo de Excel:")
+    df = pd.read_csv(ruta_archivo_csv)
+    print("Contenido del archivo de csv:")
     print(df)
 except FileNotFoundError:
     print("¡El archivo no se encontró!")
