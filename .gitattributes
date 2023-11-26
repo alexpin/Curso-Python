@@ -1,0 +1,5 @@
+# Archivos que deben tener CRLF en Windows
+*.ipynb text eol=crlf
+
+# Otros tipos de archivos
+* text eol=lf
