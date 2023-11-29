@@ -1,0 +1,7 @@
+name: cookiecutter-personal2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cookiecutter=2.4.0
+prefix: C:\Users\alexa\OneDrive\Escritorio\git_repo\miniconda3\envs\cookiecutter-personal2
